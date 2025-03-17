@@ -50,7 +50,7 @@ body {
 }
 
 .apresentacao {
-    padding: 5% 8%;
+    padding: 2% 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -128,7 +128,7 @@ body {
     flex-grow: 1;
 }
 
-@media (max-width:995px) {
+@media (max-width: 900px) {
     .cabecalho {
         padding: 10%;
     }
@@ -139,7 +139,6 @@ body {
 
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 5%;
     }
     
     .apresentacao__conteudo {
